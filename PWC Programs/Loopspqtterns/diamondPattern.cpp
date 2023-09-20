@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n = 5;
+    int n = 3;
     for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= n - i; j++)
@@ -21,7 +21,7 @@ int main()
 
         cout << endl;
     }
-    for (int i = n-1; i >=1; i--)
+    for (int i = n - 1; i >= 1; i--)
     {
         for (int j = 1; j <= n - i; j++)
         {
