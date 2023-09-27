@@ -11,5 +11,10 @@ int main()
     cout << **p << endl;
     cout << *p << endl;
 
+    // tino ka address same ayega
+    cout << &x << endl;
+    cout << ptr << endl;
+    cout << *p << endl;
+
     return 0;
 }
