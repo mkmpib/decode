@@ -74,7 +74,7 @@ void sortZeroAndOne(vector<int> &v)
         {
             left_ptr++;
         }
-        if (v[right_ptr == 1])
+        if (v[right_ptr] == 1)
         {
             right_ptr--;
         }

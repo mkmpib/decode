@@ -9,7 +9,7 @@ int fact(int x)
     }
     return f;
 }
-int combination(int n, int r)
+int combination(int n, int r)  / n or r ki jaga pe hum i or j ki values pass karege
 {
     int ncr = fact(n) / (fact(r) * fact(n - r));
     return ncr;

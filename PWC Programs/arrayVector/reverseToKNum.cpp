@@ -1,6 +1,6 @@
 // print reverce of array for k number tak
 
-#include <iostream>
+#include <bits/stdc++.h>
 #include <vector>
 using namespace std;
 int main()
@@ -12,7 +12,7 @@ int main()
     v.push_back(3);
     v.push_back(4);
     v.push_back(5);
-    int k = 2;
+    int k = 5;
     k = k % v.size();
     reverse(v.begin(), v.end());
     reverse(v.begin(), v.end() + k);
@@ -24,6 +24,6 @@ int main()
     }
     cout << endl;
 
-    abhi ye nhi hua hai;
+    //abhi ye nhi hua hai;
     return 0;
 }
