@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main()
-{
+{ abhi hua va ni ye
     int row;
     cout << "Enter the row number: ";
     cin >> row;
