@@ -4,6 +4,7 @@ void tower(int n, char beg, char aux, char end)
 
     if (n <= 0)
     {
+    
         printf("\nillegal entery");
     }
     else if (n == 1)
