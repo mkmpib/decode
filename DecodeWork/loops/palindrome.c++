@@ -10,6 +10,7 @@ int main()
 
      n = num;
 
+
      do
      {
          digit = num % 10;
