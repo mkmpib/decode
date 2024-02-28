@@ -10,10 +10,18 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "/usr/bin/g++",
+            "compilerPath": "C:/programs/MinGW_32_sep_1423/MinGW/bin/g++.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerArgs": [
+                "-lbgi",
+                "-lgdi32",
+                "-lcomdlg32",
+                "-luuid",
+                "-loleaut32",
+                "-lole32"
+            ]
         }
     ],
     "version": 4

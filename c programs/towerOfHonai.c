@@ -14,7 +14,7 @@ void tower(int n, char beg, char aux, char end)
     else
     {
         tower(n - 1, beg, end, aux);
-        tower(1, beg, aux, end);
+       tower(1, beg, aux, end);
         tower(n - 1, aux, beg, end);
     }
 }
